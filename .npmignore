@@ -1,0 +1,8 @@
+.vimrc
+.prettierrc
+package-lock.json
+?sconfig.json
+/*.tgz
+*.tsbuildinfo
+/src
+/tests

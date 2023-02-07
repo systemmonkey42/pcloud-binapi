@@ -1,0 +1,35 @@
+{
+  "name": "x",
+  "version": "1.0.0",
+  "description": "Navtrix x module.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepack": "tsc",
+    "watch": "tsc --watch",
+    "clean": "[ -d dist ] && find dist -delete"
+  },
+  "keywords": [],
+  "author": {
+    "name": "David le Blanc",
+    "email": "david.leblanc@navtrix.com"
+  },
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/Navtrix/x.git"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.1",
+    "@tsconfig/recommended": "^1.0.2",
+    "@types/node": "^18.11.19",
+    "nodemon": "^2.0.20",
+    "prettier": "npm:prettierx@^0.19.0",
+    "source-map-support": "^0.5.21",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5",
+    "wtfnode": "^0.9.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "arrowParens": "avoid",
+  "singleQuote": true,
+  "printWidth": 200,
+  "useTabs": false,
+  "semi": true,
+  "endOfLine": "lf",
+  "arrayBracketSpacing": true,
+  "bracketSpacing": false,
+  "jsxSingleQuote": true,
+  "offsetTernaryExpressions": true,
+  "breakLongMethodChains": true,
+  "overrides": [
+    {
+      "files": [
+        "*.js",
+        "*.jsx"
+      ],
+      "options": {
+        "alignObjectProperties": true,
+		"yamlBracketSpacing": true,
+        "trailingComma": "all",
+		"tabWidth": 4
+      }
+    },
+    {
+      "files": [
+        "*.ts",
+        "*.tsx"
+      ],
+      "options": {
+        "alignObjectProperties": false,
+        "trailingComma": "es5",
+		"tabWidth": 4
+      }
+    },
+    {
+      "files": [
+        ".prettierrc*",
+        "*.json"
+      ],
+      "options": {
+        "parser": "json",
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": [
+        "*.yaml",
+        "*.yml"
+      ],
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
+}
